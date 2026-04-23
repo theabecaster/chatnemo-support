@@ -47,7 +47,7 @@
 </head>
 <body>
     <h1>Privacy Policy — NemoChat</h1>
-    <p class="effective">Effective: April 17, 2026</p>
+    <p class="effective">Effective: April 23, 2026</p>
 
     <p>NemoChat is a local-only application. We (the developer) do not collect, store, transmit, or process any personal data on any server.</p>
 
@@ -55,17 +55,17 @@
     <p>NemoChat collects no data. There is no account system, no analytics SDK, no telemetry, and no tracking pixel of any kind.</p>
 
     <h2>2. Data Storage</h2>
-    <p>All conversation history, attached images, and settings are stored locally on your device using Apple's SwiftData framework. Nothing is synced to iCloud, our servers, or any third party.</p>
+    <p>All conversation history, attached images, and settings are stored locally on your device using Apple's SwiftData framework. API keys and access tokens you provide (Hugging Face access token, Brave Search API key) are stored in the iOS Keychain and remain on your device. Nothing is synced to iCloud, our servers, or any third party. Uninstalling the app removes this data.</p>
 
     <h2>3. Permissions</h2>
     <p>When a feature requires access (camera, calendar, contacts, location, reminders), iOS prompts you. These permissions are used only for the immediate tool action and are never recorded or transmitted.</p>
 
     <h2>4. Third-Party Services</h2>
-    <p>Optional tools may contact:</p>
+    <p>Some optional features send network requests directly from your device to third parties. When you use these, the third party will necessarily see your IP address (as with any HTTPS request) in addition to the data listed below. We (the developer) do not receive, proxy, or log any of this traffic.</p>
     <ul>
-        <li>Hugging Face (for one-time model download)</li>
-        <li>Open-Meteo (weather tool, if invoked; no API key, no personal data)</li>
-        <li>Brave Search (web search tool, only if you add an API key; only your query is sent)</li>
+        <li><strong>Hugging Face</strong> — used for the one-time model download and any subsequent model downloads you initiate. Hugging Face receives your IP address and the model file path you request. If you provide a Hugging Face access token, it is sent only to Hugging Face to authenticate the download. See <a href="https://huggingface.co/privacy">Hugging Face's privacy policy</a>.</li>
+        <li><strong>Open-Meteo</strong> — contacted only when the weather tool is invoked. Open-Meteo receives your IP address and the coordinates used for the forecast (either your device location, with your permission, or a location you specify). No API key and no account are used. See <a href="https://open-meteo.com/en/terms">Open-Meteo's terms and privacy notice</a>.</li>
+        <li><strong>Brave Search</strong> — contacted only if you add a Brave Search API key and the web search tool is invoked. Brave receives your IP address, your search query, and your API key. See <a href="https://brave.com/privacy/browser/">Brave's privacy policy</a>.</li>
     </ul>
 
     <h2>5. Children's Privacy</h2>
