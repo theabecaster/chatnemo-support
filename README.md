@@ -37,4 +37,10 @@ NemoChat does not collect, transmit, or store your conversations on any external
 
 ## Contact
 
-For issues not suited to a public GitHub issue, please use the contact information listed on the App Store page.
+Email us directly at **[theabecaster0@gmail.com](mailto:theabecaster0@gmail.com)** with any question, issue, or support request — no GitHub account needed. We aim to respond within 48 hours.
+
+For bug reports, you can also open a [GitHub issue](https://github.com/theabecaster/chatnemo-support/issues/new).
+
+## Privacy Policy
+
+Read the full privacy policy: [Privacy Policy](https://theabecaster.github.io/chatnemo-support/privacy.html)
